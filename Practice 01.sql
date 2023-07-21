@@ -1,15 +1,11 @@
 --Question No 02
 -- Answer is False
-
 --Question No 03
 -- Answer is True
-
 --Question No 04
 -- Answer is True
-
 --Question No 05
 -- Answer 
-
 /*
  Four Coding Error are
  
@@ -24,20 +20,19 @@
  
  
  */
-
 -- Question No 06
 -- Answer is 
+desc hr.departments;
 
-desc hr.departments
 select
     *
 from
-    hr.departments 
+    hr.departments;
 
 -- Question No 07
 -- Answer is 
+DESC hr.employees;
 
-    DESC employees
 SELECT
     employee_id,
     last_name,
@@ -48,7 +43,6 @@ FROM
 
 -- Question No 08
 -- Answer is 
-
 SELECT
     employee_id,
     last_name,
@@ -59,34 +53,30 @@ FROM
 
 -- Question No 09
 -- Answer is 
-
 select
     distinct job_id
 from
-    hr.employees
+    hr.employees;
 
- -- Question No 10
- -- Answer is 
-
+-- Question No 10
+-- Answer is 
 SELECT
     employee_id "Emp #",
     last_name "Employee",
     job_id "Job",
     hire_date "Hire Date"
 FROM
-    hr.employees
-    
+    hr.employees;
+
 -- Question No 11
 -- Answer is 
-
 select
     last_name || ',' || job_id " Employee and Title"
 FROM
-    hr.employees 
+    hr.employees;
 
 -- Question No 12
 -- Answer is 
-
 SELECT
     employee_id || ',' || first_name || ',' || last_name || ',' || email || ',' || phone_number || ',' || job_id || ',' || manager_id || ',' || hire_date || ',' || salary || ',' || commission_pct || ',' || department_id "THE_OUTPUT"
 FROM
